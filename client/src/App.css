@@ -101,10 +101,7 @@ body {
 }
 
 .hero {
-    background-image: url("/herobg.png");
-    background-size: cover;        /* makes image fit */
-    background-position: center;   /* keeps image centered */
-    background-repeat: no-repeat;  /* prevents tiling */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 100px 0;
     width: 100%;
 }
