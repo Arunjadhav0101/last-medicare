@@ -1,0 +1,14 @@
+{
+  "name": "medicare-react",
+  "version": "1.0.0",
+  "description": "MediCare E-Pharmacy React Application",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": ["react", "pharmacy", "healthcare", "blood-bank"],
+  "authors": ["Arun Jadhav", "Yogesh Bhore", "Prathviraj Bagli"],
+  "license": "ISC"
+}

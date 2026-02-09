@@ -1,0 +1,33 @@
+.orders {
+  padding: 3rem 0;
+  min-height: 80vh;
+}
+
+.orders h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2563eb;
+}
+
+.orders-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.order-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.order-card h3 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.order-card p {
+  margin: 0.5rem 0;
+  color: #6b7280;
+}
